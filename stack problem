@@ -1,7 +1,7 @@
 # C++ program to check whether a number , string , combination of both (including Special Character) is palindrome or not with the help of Stack .
 
 #include <iostream>
-#include<stack>
+#include<stack> why you will use this header file
 using namespace std;
 
 int main()
