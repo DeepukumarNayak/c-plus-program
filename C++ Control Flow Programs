@@ -398,6 +398,37 @@ int main()
     }
 } 
 
+                                                   (Alternative method- uisng Bitwise operator) 
+#include <iostream>
+using namespace std;
+
+// Returns true if n is even, else odd
+bool isEven(int n)
+{
+
+	// n^1 is n+1, then even, else odd
+	if ((n ^ 1) == (n + 1))
+		return true;
+	else
+		return false;
+}
+
+// Driver code
+int main()
+{
+	//int n = 1;
+	//isEven(n) ? cout << "Even" : cout << "Odd";
+    bool ans = isEven(303);
+    if(ans==true){
+        cout<<"Even"<<endl;
+    }
+    else{
+        cout<<"Odd"<<endl;
+    }
+	return 0;
+}
+
+
 --> C++ program to calculate nCr using function
 
 #include<iostream>
